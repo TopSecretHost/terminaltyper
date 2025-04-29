@@ -1,0 +1,47 @@
+[
+    {
+      "command": "git commit -am \"fix: patch memory leak in auth controller\"",
+      "breakdown": [
+        { "label": "git", "desc": "Version control tool used to track code changes." },
+        { "label": "commit", "desc": "Creates a snapshot of your changes." },
+        { "label": "-a", "desc": "Automatically stage tracked files." },
+        { "label": "-m", "desc": "Adds a commit message inline." },
+        { "label": "\"fix:...\"", "desc": "A short message explaining the change." }
+      ],
+      "useCases": [
+        "Quickly commit all changes with a message.",
+        "Useful in fast iteration coding sessions.",
+        "Common in agile workflows."
+      ]
+    },
+    {
+      "command": "python3 -m http.server 8080",
+      "breakdown": [
+        { "label": "python3", "desc": "Starts Python interpreter version 3." },
+        { "label": "-m", "desc": "Runs a Python module as a script." },
+        { "label": "http.server", "desc": "Built-in HTTP file server module." },
+        { "label": "8080", "desc": "Port the server will run on." }
+      ],
+      "useCases": [
+        "Share files quickly over LAN.",
+        "Preview local HTML/CSS/JS pages.",
+        "Simple testing of frontend projects."
+      ]
+    },
+    {
+      "command": "sudo rm -rf /",
+      "breakdown": [
+        { "label": "sudo", "desc": "Run command as superuser/root." },
+        { "label": "rm", "desc": "Remove/delete files or directories." },
+        { "label": "-r", "desc": "Recursive deletion." },
+        { "label": "-f", "desc": "Force deletion without prompts." },
+        { "label": "/", "desc": "Root directory — deletes EVERYTHING." }
+      ],
+      "useCases": [
+        "NEVER use this in a real system — it's catastrophic.",
+        "Educational example of what *not* to do.",
+        "Often used in jokes or testing VMs."
+      ]
+    }
+  ]
+  
